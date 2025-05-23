@@ -1,19 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!64 &1078730187378454781
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9125144672762523221}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 926d1106f650b7b469ce7d5c8d07e540, type: 3}
 --- !u!1 &9125144673017595698
 GameObject:
   m_ObjectHideFlags: 0
@@ -24,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9125144673017595697}
   - component: {fileID: 2434300053326847266}
+  - component: {fileID: 1204260165240949377}
   m_Layer: 0
-  m_Name: Barril
+  m_Name: BarrilPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,6 +49,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &1204260165240949377
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9125144673017595698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 926d1106f650b7b469ce7d5c8d07e540, type: 3}
 --- !u!1001 &9125144672762554613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -119,12 +120,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 926d1106f650b7b469ce7d5c8d07e540, type: 3}
---- !u!1 &9125144672762523221 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 926d1106f650b7b469ce7d5c8d07e540,
-    type: 3}
-  m_PrefabInstance: {fileID: 9125144672762554613}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &9125144672762163829 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 926d1106f650b7b469ce7d5c8d07e540,
