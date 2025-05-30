@@ -2833,7 +2833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954f35f4e636ed941ad3a38084231324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precio: 10
+  precio: 0
   dineroManager: {fileID: 0}
 --- !u!1001 &1319740457
 PrefabInstance:
@@ -4260,7 +4260,7 @@ PrefabInstance:
     - target: {fileID: 9125144673017595697, guid: 091c3662ad7f88945b2edeebf05d6a64,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4136062
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 9125144673017595697, guid: 091c3662ad7f88945b2edeebf05d6a64,
         type: 3}
