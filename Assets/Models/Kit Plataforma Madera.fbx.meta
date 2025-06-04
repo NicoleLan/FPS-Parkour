@@ -1,25 +1,54 @@
 fileFormatVersion: 2
-guid: 56023a5a90cfdd84b8068fa8573450da
+guid: ad75f2db50ef02e4a88b4b3895df4750
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Caja
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Caja
+    100000: Columna 6x0.3
+    100002: //RootNode
+    100004: Plataforma 4x4
+    100006: Viga 4x0.3
+    400000: Columna 6x0.3
+    400002: //RootNode
+    400004: Plataforma 4x4
+    400006: Viga 4x0.3
+    2100000: Madera_Tablas
+    2100002: Clavo
+    2100004: MaderaColumna
+    2300000: Columna 6x0.3
+    2300002: Plataforma 4x4
+    2300004: Viga 4x0.3
+    3300000: Columna 6x0.3
+    3300002: Plataforma 4x4
+    3300004: Viga 4x0.3
+    4300000: Plataforma 4x4
+    4300002: Viga 4x0.3
+    4300004: Columna 6x0.3
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Caja
-    second: {fileID: 2100000, guid: 85498e1dc738a5c4092707718740ba13, type: 2}
+      name: Clavo
+    second: {fileID: 2100000, guid: 82aa89e71dd6f794ba666d5d6d83b163, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaderaColumna
+    second: {fileID: 2100000, guid: d709e0e1eef77d44592f9e8a67790e29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera_Tablas
+    second: {fileID: 2100000, guid: e1680f6e178bc4342903dd182908470d, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: crate
-    second: {fileID: 2800000, guid: 78ea411197aa1b1469257567977fbbc6, type: 3}
+      name: TexturesCom_WoodRough0089_1_seamless_S
+    second: {fileID: 2800000, guid: 12331069385942b40a29cb11114b98c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rough_wood_diff_1k (1)
+    second: {fileID: 2800000, guid: f9daaa3c84ce6ef48afc570ad160117a, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
