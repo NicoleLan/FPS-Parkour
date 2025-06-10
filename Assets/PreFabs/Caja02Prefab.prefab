@@ -75,7 +75,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954f35f4e636ed941ad3a38084231324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePoints: 0
+  precio: 5
+  dineroManager: {fileID: 0}
 --- !u!1 &8625980863948338879
 GameObject:
   m_ObjectHideFlags: 0

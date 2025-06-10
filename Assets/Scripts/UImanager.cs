@@ -5,17 +5,27 @@ using TMPro;
 
 public class UImanager : MonoBehaviour
 {
-    public TextMeshPro txtMoney;
+    public TextMeshProUGUI txtMoney;
     public DineroManager dineroManager;
+    public TextMeshProUGUI txtHealth;
+    public HealthManager healthManager;
+
 
     private void Start()
     {
-        dineroManager = FindObjectOfType<DineroManager>();
+      
 
-    } 
+
+    }
 
     public void UpDateMoneyUI(string moneyAmount)
     {
-        txtMoney.text = moneyAmount;
+        txtMoney.text = "Dinero: $" + moneyAmount;
+    }
+
+    public void UpDateHealthUI(string healthAmount)
+    {
+        txtHealth.text = "Health = " + healthAmount;
     }
 }
+

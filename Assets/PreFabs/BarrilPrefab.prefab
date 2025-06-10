@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9125144673017595697}
-  - component: {fileID: 2434300053326847266}
   - component: {fileID: 1204260165240949377}
-  - component: {fileID: 114994743665511684}
+  - component: {fileID: 114825855108725580}
+  - component: {fileID: 54556528974182562}
   m_Layer: 0
   m_Name: BarrilPrefab
   m_TagString: Untagged
@@ -34,7 +34,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &2434300053326847266
+--- !u!64 &1204260165240949377
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9125144673017595698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 926d1106f650b7b469ce7d5c8d07e540, type: 3}
+--- !u!114 &114825855108725580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9125144673017595698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954f35f4e636ed941ad3a38084231324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precio: 10
+  dineroManager: {fileID: 0}
+--- !u!54 &54556528974182562
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50,32 +78,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &1204260165240949377
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9125144673017595698}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 926d1106f650b7b469ce7d5c8d07e540, type: 3}
---- !u!114 &114994743665511684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9125144673017595698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 954f35f4e636ed941ad3a38084231324, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &9125144672762554613
 PrefabInstance:
   m_ObjectHideFlags: 0
